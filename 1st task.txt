@@ -1,0 +1,22 @@
+In the vast landscape of the internet, communication protocols serve as the backbone of data exchange between clients and servers.
+Among these protocols, HTTP (Hypertext Transfer Protocol) stands as a cornerstone, facilitating the transfer of web content across the World Wide Web.
+
+
+HTTP/1.1: The Foundation:
+Introduced in 1997, HTTP/1.1 revolutionized the way web servers and clients communicated. However, as the digital landscape evolved, 
+the limitations of HTTP/1.1 became increasingly apparent. One of the most notable drawbacks was its inability to efficiently handle multiple concurrent requests. 
+Each HTTP/1.1 request required its dedicated connection, leading to a phenomenon known as "head-of-line blocking,
+" where the transmission of a single large file could delay the delivery of smaller resources.
+
+Enter HTTP/2: The Next Generation
+Recognizing the need for a more efficient protocol to cater to the evolving demands of the web, the Internet Engineering Task Force (IETF) introduced HTTP/2 in 2015. 
+Built upon the foundation of its predecessor, HTTP/2 aimed to address the shortcomings of HTTP/1.1 while introducing a slew of new features to enhance performance, 
+security, and reliability.
+
+
+Key Differences Summarized
+
+1.Multiplexing: HTTP/1.1 relies on multiple connections for parallelism, whereas HTTP/2 enables multiplexing over a single connection, enhancing efficiency and reducing latency.
+2.Header Compression: HTTP/2 compresses headers, minimizing overhead and improving bandwidth utilization compared to HTTP/1.1.
+3.Server Push: HTTP/2 introduces server push, allowing servers to proactively send resources to clients, thereby optimizing page load times.
+4.Binary Protocol: HTTP/2 adopts a binary framing layer, enhancing parsing efficiency and reducing complexity compared to the text-based format of HTTP/1.1.
